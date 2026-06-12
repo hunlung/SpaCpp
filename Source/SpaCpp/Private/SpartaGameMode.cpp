@@ -3,10 +3,11 @@
 
 #include "SpartaGameMode.h"
 #include "SpartaCharacter.h"
+#include "SpartaPawn.h"
 #include "SpartaPlayerController.h"
 
 ASpartaGameMode::ASpartaGameMode()
 {
-	DefaultPawnClass = ASpartaCharacter::StaticClass();
+	DefaultPawnClass = ASpartaPawn::StaticClass();
 	PlayerControllerClass = ASpartaPlayerController::StaticClass();
 }

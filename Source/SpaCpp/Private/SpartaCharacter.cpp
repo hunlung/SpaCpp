@@ -8,7 +8,7 @@
 ASpartaCharacter::ASpartaCharacter()
 {
 
-	PrimaryActorTick.bCanEverTick = false;
+	PrimaryActorTick.bCanEverTick = true;
 		
 
 	SpringArmComp = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
@@ -171,4 +171,12 @@ void ASpartaCharacter::StopSprint(const FInputActionValue& value)
     {
         GetCharacterMovement()->MaxWalkSpeed = NormalSpeed;
     }
+}
+
+
+void ASpartaCharacter::Tick(float DeltaSeconds)
+{
+    Super::Tick(DeltaSeconds);
+    
+    
 }

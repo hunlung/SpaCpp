@@ -50,5 +50,7 @@ protected:
 	void StartSprint(const FInputActionValue& value);
 	UFUNCTION()
 	void StopSprint(const FInputActionValue& value);
+
+	virtual void Tick(float DeltaSeconds) override;
 };
 	

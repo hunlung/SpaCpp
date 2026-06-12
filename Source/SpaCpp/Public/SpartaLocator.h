@@ -24,11 +24,16 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Locator|Movement")
 	float RandomStayRange;            // 머무는 시간 랜덤 가감 범위
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Locator|Movement")
+	float RandomOffsetRange;            // 머무는 위치 랜덤 범위
+	
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Locator|Components")
 	UStaticMeshComponent* MeshComp;
 
 private:
 	void Teleport();
+	FVector RandomLocation();
 
 	FVector PointA;
 	FVector PointB;

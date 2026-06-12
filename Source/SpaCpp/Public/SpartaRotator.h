@@ -36,6 +36,7 @@ public:
 private:
 	void HideActor();
 	void ShowActor();
+	float DurationChange(float duration);
 
 	float CurrentRotationSpeed;
 	bool bIsVisible;

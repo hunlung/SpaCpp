@@ -2,21 +2,30 @@
 
 ASpartaLocator::ASpartaLocator()
 {
-	PrimaryActorTick.bCanEverTick = false;   // 순간이동이라 Tick 불필요
+	PrimaryActorTick.bCanEverTick = false; // 순간이동이라 Tick 불필요
 
 	MeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MeshComp"));
 	RootComponent = MeshComp;
 
-	PointBOffset    = FVector(0.0f, 500.0f, 0.0f);
-	StayDuration    = 2.0f;
+	
+	StayDuration = 2.0f;
+	RandomOffsetRange = 200.0f;
 	RandomStayRange = 0.5f;
-	bAtPointA       = true;
+	bAtPointA = true;
+}
+
+FVector ASpartaLocator::RandomLocation()
+{
+	FVector Location = FVector(0.0f, FMath::RandRange(-RandomOffsetRange-60, RandomOffsetRange+60),
+	                           FMath::RandRange(-RandomOffsetRange+50, RandomOffsetRange));
+
+	return Location;
 }
 
 void ASpartaLocator::BeginPlay()
 {
 	Super::BeginPlay();
-
+	PointBOffset = RandomLocation();
 	PointA = GetActorLocation();
 	PointB = PointA + PointBOffset;
 
