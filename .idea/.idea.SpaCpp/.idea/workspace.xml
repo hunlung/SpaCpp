@@ -20,19 +20,15 @@
   <component name="ChangeListManager">
     <list default="true" id="f4a4791b-321f-4675-9583-5f671d116e12" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaCpp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaCpp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BluePrints/ABP_Sparta.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BluePrints/ABP_Sparta.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BluePrints/BP_SpartaGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BluePrints/BP_SpartaGameMode.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BluePrints/BP_SpartaLocator.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BluePrints/BP_SpartaLocator.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BluePrints/BP_ResetFloor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BluePrints/BP_ResetFloor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BluePrints/BP_SpartaPawn.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BluePrints/BP_SpartaPawn.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BluePrints/BP_SpartaPlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BluePrints/BP_SpartaPlayerController.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Input/IA_Jump.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Input/IMC_Character.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Input/IMC_Character.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Maps/MainLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/MainLevel.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Maps/MainRUI.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/MainRUI.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/SpaCpp/Private/SpartaCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/SpaCpp/Private/SpartaCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/SpaCpp/Private/SpartaGameMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/SpaCpp/Private/SpartaGameMode.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/SpaCpp/Private/SpartaLocator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/SpaCpp/Private/SpartaLocator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/SpaCpp/Private/SpartaRotator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/SpaCpp/Private/SpartaRotator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/SpaCpp/Public/SpartaCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/SpaCpp/Public/SpartaCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/SpaCpp/Public/SpartaLocator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/SpaCpp/Public/SpartaLocator.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/SpaCpp/Public/SpartaRotator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/SpaCpp/Public/SpartaRotator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/SpaCpp/Private/SpartaPawn.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/SpaCpp/Private/SpartaPawn.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/SpaCpp/Public/SpartaPawn.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/SpaCpp/Public/SpartaPawn.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +42,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Core/Public/Math/UnrealMathUtility.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectBaseUtility.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/SpaCpp/Private/SpartaCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/SpaCpp/Private/SpartaLocator.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -213,6 +210,7 @@
       <workItem from="1780752630217" duration="11502000" />
       <workItem from="1781090881953" duration="5638000" />
       <workItem from="1781277983879" duration="10394000" />
+      <workItem from="1781348730707" duration="10937000" />
     </task>
     <servers />
   </component>
